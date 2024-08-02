@@ -1,2 +1,1 @@
-# sir_implementation
-This is my academic project about implementing an epidemic model using optimization methods.
+# Parameter Optimization of S-I-R Epidemic Model: Single and Multi-Objective Genetic Algorithm-Based Approaches
