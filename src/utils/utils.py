@@ -7,9 +7,10 @@ def generate_sir_dataset(N: int, I0: int, num_of_days: int, beta: float, gamma: 
     '''
     Computes the S-I-R (Suceptible-Infected-Recovered) dataset for the given parameters.
 
-    Returns the dataset as an `numpy.ndarray` of shape=(num_of_days, 3).
+    All of the parameters are necessary otherwise it can not compute.
 
     # Parameters
+    ------------
     N: int
         Total number of population.
     I0: int
@@ -23,6 +24,7 @@ def generate_sir_dataset(N: int, I0: int, num_of_days: int, beta: float, gamma: 
         Recovery Rate of the disease.
 
     # Returns
+    ---------
     data: ndarray, dtype=int
         Returns the array of shape=(num_of_days, 3).
     '''
