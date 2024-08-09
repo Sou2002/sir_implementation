@@ -9,8 +9,8 @@ def generate_sir_dataset(N: int, I0: int, num_of_days: int, beta: float, gamma: 
 
     All of the parameters are necessary otherwise it can not compute.
 
-    # Parameters
-    ------------
+    Parameters
+    ----------
     N: int
         Total number of population.
     I0: int
@@ -23,8 +23,8 @@ def generate_sir_dataset(N: int, I0: int, num_of_days: int, beta: float, gamma: 
     gamma: float
         Recovery Rate of the disease.
 
-    # Returns
-    ---------
+    Returns
+    -------
     data: ndarray, dtype=int
         Returns the array of shape=(num_of_days, 3).
     '''
