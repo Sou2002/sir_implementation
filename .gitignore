@@ -1,2 +1,5 @@
 #environments
 sir_env/
+
+#cache
+__pycache__
