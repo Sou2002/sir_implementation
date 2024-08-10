@@ -3,3 +3,6 @@ sir_env/
 
 #cache
 __pycache__
+
+#dataset
+data/
