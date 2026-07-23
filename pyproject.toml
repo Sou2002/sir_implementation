@@ -1,0 +1,11 @@
+[project]
+name = "sir-implementation"
+version = "0.1.0"
+description = "S-I-R parameter estimation using single- and multi-objective genetic algorithms (pymoo)."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+	"numpy",
+	"pymoo",
+	"astral"
+]
